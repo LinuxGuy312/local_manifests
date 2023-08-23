@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Trees -->
+ <project path="device/oppo/RMX1805" name="RMX1805/device_oppo_RMX1805.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/oppo" name="RMX1805/vendor_oppo.git" remote="github" revision="lineage-18.1" />
+</manifest>
