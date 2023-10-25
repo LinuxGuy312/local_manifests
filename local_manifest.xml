@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!-- Trees -->
- <project path="device/oppo/RMX1805" name="LinuxGuy312/device_oppo_RMX1805.git" remote="github" revision="11" />
+ <project path="device/oppo/RMX1805" name="LinuxGuy312/device_oppo_RMX1805.git" remote="github" revision="lineage-18.1" />
  <project path="vendor/oppo" name="RMX1805/vendor_oppo.git" remote="github" revision="lineage-18.1" />
  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
