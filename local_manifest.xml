@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ <!-- Remotes -->
+ <remote name="crDroid" fetch="https://github.com/crdroidandroid/" />
+ <remote name="crDroid-gitlab" fetch="https://gitlab.com/crdroidandroid/" />
  <!-- Trees -->
- <project path="device/oppo/RMX1805" name="LinuxGuy312/device_oppo_RMX1805.git" remote="github" revision="lineage-18.1" />
- <project path="vendor/oppo" name="RMX1805/vendor_oppo.git" remote="github" revision="lineage-18.1" />
- <remote name="opengapps" fetch="https://github.com/opengapps/"  />
- <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
-
- <!-- GApps -->
- <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
- 
- <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
- 
- <!-- arm64 depends on arm -->
- <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
- <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
- 
- <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
- <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+ <project path="device/xiaomi/violet" name="android_device_xiaomi_violet" remote="crDroid" revision="14.0" />
+ <project path="vendor/xiaomi/violet" name="proprietary_vendor_xiaomi_violet" remote="crDroid" revision="14.0" />
+ <project path="kernel/xiaomi/violet" name="android_kernel_xiaomi_violet" remote="crDroid" revision="14.0" />
+ <project path="vendor/xiaomi-firmware/violet" name="android-vendor-xiaomi-firmware-violet" remote="crDroid-gitlab" revision="14.0" />
+ <project path="vendor/MiuiCamera" name="android_vendor_miuicamera" remote="crDroid-gitlab" revision="14.0-violet" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="android_prebuilts_clang_host_linux-x86_clang-r510928" remote="crDroid-gitlab" revision="14.0" />
 </manifest>
