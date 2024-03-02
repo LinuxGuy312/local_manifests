@@ -8,6 +8,5 @@
  <project path="vendor/xiaomi/violet" name="proprietary_vendor_xiaomi_violet" remote="crDroid" revision="14.0" />
  <project path="kernel/xiaomi/violet" name="android_kernel_xiaomi_violet" remote="crDroid" revision="14.0" />
  <project path="vendor/xiaomi-firmware/violet" name="android-vendor-xiaomi-firmware-violet" remote="crDroid-gitlab" revision="14.0" />
- <project path="vendor/MiuiCamera" name="android_vendor_miuicamera" remote="crDroid-gitlab" revision="14.0-violet" />
  <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="android_prebuilts_clang_host_linux-x86_clang-r510928" remote="crDroid-gitlab" revision="14.0" />
 </manifest>
