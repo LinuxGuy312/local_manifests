@@ -5,7 +5,4 @@
  <!-- Trees -->
  <project path="device/realme/RMX1805" name="android_device_realme_RMX1805" remote="LinuxGuy312" revision="arrow-12.1" />
  <project path="vendor/realme/RMX1805" name="android_vendor_realme_RMX1805" remote="LinuxGuy312" revision="oss" />
- <!-- RevampedFMRadio -->
- <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
- <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 </manifest>
