@@ -2,14 +2,14 @@
 <manifest>
  <!-- Remotes -->
  <remote name="LinuxGuy312" fetch="https://github.com/LinuxGuy312/" />
- <remote name="gitlab" fetch="https://gitlab.com/"
+ <remote name="PE" fetch="https://gitlab.com/PixelExperience" />
  <!-- Trees -->
  <project path="device/xiaomi/beryllium" name="device_xiaomi_beryllium" remote="LinuxGuy312" revision="10" />
  <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="LinuxGuy312" revision="10" />
  <project path="vendor/xiaomi" name="CorvusRom-Devices/vendor_xiaomi" remote="github" revision="10" />
  <project path="kernel/xiaomi/sdm845" name="diphons/D8G_Kernel" remote="github" revision="main" />
  <!-- Extra Stuffs -->
- <project path="packages/apps/PixelLiveWallpaper" name="PixelExperience/packages_apps_PixelLiveWallpaper" remote="gitlab" revision="ten" />
+ <project path="packages/apps/PixelLiveWallpaper" name="packages_apps_PixelLiveWallpaper" remote="PE" revision="ten" />
  <project path="hardware/xiaomi" name="sm6150-dev/android_hardware_xiaomi" remote="github" revision="lineage-17.1" />
  <project path="prebuilts/clang/host/linux-x86/clang-13" name="kdrag0n/proton-clang" remote="github" revision="master" />
 </manifest>
